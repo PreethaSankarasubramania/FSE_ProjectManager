@@ -1,0 +1,20 @@
+export class AppSettings {
+    public static ServiceBaseUrl = 'http://localhost/TaskManager.Services/v1';
+    public static TasksUrl = AppSettings.ServiceBaseUrl + '/tasks';
+    public static UsersUrl = AppSettings.ServiceBaseUrl + '/users';
+    public static ProjectsUrl = AppSettings.ServiceBaseUrl + '/projects';
+
+    public static IsoDateFormat = 'yyyy-MM-dd';
+    public static StartDateFieldName = 'startDate';
+    public static EndDateFieldName = 'endDate';
+    public static AlertDanger = 'danger';
+    public static AlertDangerClass = 'alert alert-danger alert-dismissible';
+    public static AlertSuccess = 'successs';
+    public static AlertSuccessClass = 'alert alert-success alert-dismissible';
+    public static GenericError = 'There was a problem in processing your request. Please try again later.';
+
+    constructor() {
+
+    }
+
+}
