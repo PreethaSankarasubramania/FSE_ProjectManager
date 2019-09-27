@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TaskManagerAPI",
+    "\\TaskManagerUI"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\TaskManagerUI\\angular.json",
   "PreviewInSolutionExplorer": false
 }
